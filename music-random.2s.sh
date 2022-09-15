@@ -35,14 +35,6 @@ end if')"
 
 if [ $isMusicOpen = "true" ]; then
   status=$(tellMusic "get player state")
-
-  if [ $status == "playing" ] || [ $status == "paused" ]; then
-    position=$(tellMusic "get player position" | cut -d '.' -f 1)
-
-    songDuration=$(tellMusic "get time of current track")
-    IFS=':' read -r -a array <<< "$songDuration"
-    songSeconds=$(( ${array[0]} * 60 + $(expr ${array[1]}) ))
-  fi
 fi
 
 if [ $status = "stopped" ] || [ $1 = 'play' ] ; then
