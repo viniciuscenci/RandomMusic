@@ -33,7 +33,7 @@ else
 	return "false"
 end if')"
 
-if [ isMusicOpen = "true" ]; then
+if [ $isMusicOpen = "true" ]; then
   status=$(tellMusic "get player state")
 
   if [ $status == "playing" ] || [ $status == "paused" ]; then
