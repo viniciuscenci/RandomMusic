@@ -20,5 +20,4 @@ Plays a random music from Music app (MacOs) because the "random" algorithm sucks
 ## IMPORTANT!
 Make sure you clear the "Playing next" list before using (otherwise it can cause some issues at the end of a song):
 
-![image](https://user-images.githubusercontent.com/2103416/190409538-95e8201c-4551-42c1-8e9c-15a519c46c02.png)
-
+![image](https://user-images.githubusercontent.com/2103416/190429737-a38aab7f-36e4-45d6-943f-2b15edaea39a.png)
